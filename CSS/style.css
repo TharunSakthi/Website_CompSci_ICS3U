@@ -1,6 +1,7 @@
 
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
 
 body {font-family: Arial;}
@@ -41,9 +42,8 @@ body {font-family: Arial;}
   border: 1px solid #ccc;
   border-top: none;
 }
-*{
-  background: grey;
-}
+</style>
+
 
 
 <div class="tab">
