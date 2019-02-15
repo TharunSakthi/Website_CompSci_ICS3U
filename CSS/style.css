@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+}
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial;}
@@ -78,3 +83,8 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+
+body
+{
+  background-color: lightblue;
+}
