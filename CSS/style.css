@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,3 +82,26 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+=======
+h3 {
+
+font-size: 70;
+font-family: monospace; 
+}
+
+body{
+	background-color: green;
+}
+
+<head>
+
+</head>
+<body>
+
+
+  
+  
+</ul>
+
+</body>
+>>>>>>> parent of 81db93f... Nav Bar_7
