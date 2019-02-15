@@ -6,42 +6,7 @@
 <body>
 
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'About Me')">About Me</button>
-  <button class="tablinks" onclick="openCity(event, 'Assignments')">Assignments</button>
-  <button class="tablinks" onclick="openCity(event, 'Check this Out!')">Check this Out!</button>
-</div>
 
-<div id="About Me" class="tabcontent">
-  <h3>About Me</h3>
-  <p>Here is a little about me</p>
-</div>
-
-<div id="Assignments" class="tabcontent">
-  <h3>Assignments</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Check this Out!" class="tabcontent">
-  <h3>Check this Out!</h3>
-  <p>Wow this is so cool</p>
-</div>
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
    
 </body>
 </html> 
