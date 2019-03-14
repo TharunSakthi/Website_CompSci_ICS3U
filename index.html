@@ -2,106 +2,38 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial;}
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
+<link rel="stylesheet" type="text/css" href="style.css">
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-<<<<<<< HEAD
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s;
-}
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-=======
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
->>>>>>> parent of 579a410... Test
-}
-</style>
 </head>
+
 <body>
 
 
 
 <div class="tab">
-<<<<<<< HEAD
-  <button class="tablinks" onclick="openCity(event, 'About Me')">About Me</button>
-  <button class="tablinks" onclick="openCity(event, 'Assignments')">Assignments</button>
-  <button class="tablinks" onclick="openCity(event, 'FILL THIS IN')">FILL THIS IN</button>
-=======
   <button class="tablinks" onclick="openCity(event, 'Assignments')">Assignments </button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
->>>>>>> parent of a4dfe70... Update index.html
 </div>
 
-<div id="About Me" class="tabcontent">
-  <h3>About Me</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget imperdiet leo, at interdum magna. Aliquam ornare leo a neque semper iaculis. Nullam ac dolor diam. Aenean est lacus, congue.</p>
-</div>
-
-<<<<<<< HEAD
 <div id="Assignments" class="tabcontent">
   <h3>Assignments</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget imperdiet leo, at interdum magna. Aliquam ornare leo a neque semper iaculis. Nullam ac dolor diam. Aenean est lacus, congue.</p> 
-=======
+  <p>London is the capital city of England.</p>
+</div>
+
 <div id="Paris" class="tabcontent">
   <h3>Paris</h3>
   <p>Paris is the capital of France.</p> 
->>>>>>> parent of a4dfe70... Update index.html
 </div>
 
-<div id="FILL THIS IN" class="tabcontent">
-  <h3>FILL THIS IN</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget imperdiet leo, at interdum magna. Aliquam ornare leo a neque semper iaculis. Nullam ac dolor diam. Aenean est lacus, congue.</p>
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Tokyo is the capital of Japan.</p>
 </div>
 
 <script>
+//Source: W3Schools
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -118,4 +50,4 @@ function openCity(evt, cityName) {
 </script>
    
 </body>
-</html>
+</html> 
