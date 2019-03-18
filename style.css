@@ -1,15 +1,12 @@
 
-<<<<<<< HEAD
 body {font-family: 'Montserrat';font-size: 22px;
 
 /*Style the tab */
-=======
-body background-color: red;
 
-body {font-family: Arial;}
+
+
 
 /* Style the tab */
->>>>>>> parent of c011eca... z
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -42,11 +39,11 @@ body {font-family: Arial;}
 .tabcontent {
   display: none;
   padding: 6px 12px;
-<<<<<<< HEAD
+
   border: 2px solid #ccc;
   border-top: none;
 }
-=======
+
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
 }
@@ -61,4 +58,3 @@ body {font-family: Arial;}
   from {opacity: 0;}
   to {opacity: 1;}
 }
->>>>>>> parent of c011eca... z
