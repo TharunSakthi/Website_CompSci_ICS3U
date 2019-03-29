@@ -1,5 +1,10 @@
 
-body {font-family: Arial;}
+body {font-family: 'Montserrat';font-size: 22px;
+
+/*Style the tab */
+
+
+
 
 /* Style the tab */
 .tab {
@@ -34,6 +39,22 @@ body {font-family: Arial;}
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+
+  border: 2px solid #ccc;
   border-top: none;
+}
+
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
