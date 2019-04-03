@@ -1,70 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<stle>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="JS/script.js"></script>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-
-
-
-
-}
-</style>
-
-
-
-<title>Practic3 Websit3</title>
+<script type="text/javascript" src="script.js"></script>
 
 </head>
 
 <body>
-<h3>THIS IS NOT</h3>>
-<p>FIRST WEBPAGE</p>>
 
+  <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">About Me</a></li>
+  <li><a href="#contact">Assignments</a></li>
+  <li><a href="#about">Website Reviews</a></li>
+</ul>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Assignments')">Assignments </button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
-</div>
-
-<div id="Assignments" class="tabcontent">
-  <h3>Assignments</h3>
-  <p>NOPE is the capital city of England.</p>
-</div>
-
-<div id="Check this OUT!" class="tabcontent">
-  <h3>Check this Out!</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<script>
-//Source: W3Schools
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-
+  <!-- <img src="https://png.pngtree.com/thumb_back/fw800/back_pic/03/56/94/21579f4dc25a025.jpg" alt="HTML5 Icon" height=400, width=1904
+> -->
+ 
+ <canvas id="nokey" width="800" height="800">
+   
+</canvas>
 </body>
 </html>
-
-
