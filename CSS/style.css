@@ -43,5 +43,6 @@ canvas{
 }
 
 header {
- background-image: url("http://7-themes.com/data_images/out/11/6804061-nice-background.jpg");
+ background-image: url("famous_cathedral_cove_at_coromandel_peninsula_1_hero.jpg");
+  background-image: cover;
    }
