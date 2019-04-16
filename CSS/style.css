@@ -38,11 +38,13 @@ html, body{
     background-color: #333;
     overflow: hidden;
 }
-canvas{
-    background-color: #000;
-}
 
-header {
- background-image: url("famous_cathedral_cove_at_coromandel_peninsula_1_hero.jpg");
-  background-image: cover;
+
+body {
+ background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/11/Cool-Black-And-White-Wallpapers-Resolution-1920x1080-Desktop-Backgrounds-19.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+
    }
