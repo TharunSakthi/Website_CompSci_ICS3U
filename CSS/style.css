@@ -45,6 +45,10 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
 
+   }
 
+   h1 {
+font-family: "Monsterrat";
+font-size: 40px ;
 
    }
