@@ -48,10 +48,18 @@ body {
    }
 
    h1 {
-font-family: "Monsterrat";
+font-family: 'Abel', sans-serif;
 font-size: 60px ;
 color: #FFFFFF;
-letter-spacing: 2px
+letter-spacing: 4px;
+text-align: center;
+   }
+
+h2 {
+font-family: 'Abel', sans-serif;
+font-size: 25px ;
+color: #FFFFFF;
+letter-spacing: 4px;
 text-align: center;
 
-   }
+}
