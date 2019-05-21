@@ -6,6 +6,9 @@
 
 <script type="text/javascript" src="script.js"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
@@ -18,52 +21,36 @@
   <li><a href="webrev.html">Website Reviews</a></li>
 </ul>
 
-<h1>Welcome to My Website</h1>
+
+<div id="overlay" onclick="off()">
+  <div id="text">Welcome</div>
+</div>
+
+<div style="padding:20px">
+  <h2>Overlay with Text</h2>
+  <button onclick="on()">Turn on overlay effect</button>
+</div>
+
+<h1></h1>
  
  
 <header></header>
   
 
    
-<style>ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: gray;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: Green;
-}
-
-.active {
-  background-color: Green;
-}
 
 
-*{
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+<h1>Tharun's Website</h1>
+<h2>Compsci ~ ICS3U</h2>
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
 }
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    overflow: hidden;
-}</style>
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
 </body>
 </html>
+
