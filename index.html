@@ -4,16 +4,17 @@
 
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="JS/main.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script>on()</script>
+
 </head>
 
-<body>
-
+<body id="overlay">
   <ul>
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="doggo">About Me</a></li>
@@ -21,7 +22,7 @@
   <li><a href="webrev.html">Website Reviews</a></li>
 </ul>
 
-<script>on("overlay")</script>
+<script>on()</script>
 
 <div id="overlay" onclick="off()">
   <div id="text">Welcome</div>
@@ -44,15 +45,7 @@
 
 <h1>Tharun's Website</h1>
 <h2>Compsci ~ ICS3U</h2>
-<script>
-function on() {
-  document.getElementById("overlay").style.display = "block";
-}
 
-function off() {
-  document.getElementById("overlay").style.display = "none";
-}
-</script>
 </body>
 </html>
 
