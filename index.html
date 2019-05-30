@@ -4,7 +4,9 @@
 
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src= "main.js"></script>
+
+<script> on() </script>
 
 <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
@@ -21,7 +23,17 @@
   <li><a href="webrev.html">Website Reviews</a></li>
 </ul>
 
-<script>on("overlay")</script>
+<script>
+  
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+} 
+
+</script>
 
 <div id="overlay" onclick="off()">
   <div id="text">Welcome</div>
