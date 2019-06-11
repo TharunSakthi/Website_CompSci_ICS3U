@@ -1,4 +1,5 @@
 function on() {
+<<<<<<< HEAD
   document.getElementById("overlay").style.display = "block";
 }
 
@@ -12,3 +13,8 @@ function Big() {
 }
 
 on();
+=======
+
+	
+}
+>>>>>>> parent of 51b428a... i
